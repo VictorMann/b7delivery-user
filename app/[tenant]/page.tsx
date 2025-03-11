@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { Banner } from "@/app/components/Banner";
 import styles from "./page.module.css";
@@ -6,7 +6,6 @@ import { SearchInput } from '@/app/components/SearchInput';
 import { ProductItem } from "@/app/components/ProductItem";
 
 export default function Page() {
-
   const handleSearch = (value: string) => {
     console.log(value);
   };
